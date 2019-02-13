@@ -1,0 +1,152 @@
+*{
+}
+
+#product-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	display: inline-block;
+	margin-right: 450px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+#content-block {
+	display: inline-block;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	height: 280px;
+	width: 200px;
+	background-color: #E9F0CF;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+#product-image {
+	width: 180px;
+	margin: 10px;
+}
+
+#product-title {
+	margin-top: -10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#product-price {
+	text-align: center;
+	font-size: 18px;
+}
+
+#button-add-product {
+	font-weight: 700;
+	border: 1px solid grey;
+	margin-left: 45px;
+	color: white;
+	height: 30px;
+	font-size: 16px;
+	background: rgb(64,199,129);
+	text-decoration: none;
+
+}
+
+#button-add-product:hover {
+	background: rgb(53, 167, 110);
+}
+
+#basket-container {
+	display: inline-block;
+	position: absolute;
+	margin-left: 65%;
+	margin-top: 50px;
+	width: 350px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+#basket-title{
+	text-align: center;
+	font-size: 23px;
+}
+
+.basket_container-item {
+	background-color: #E9F0CF;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+#basket_product-image{
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 100px;
+	display: inline-block;
+}
+#basket_description-item{
+	display: inline-block;
+	height: 100px;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 20px;
+	position: absolute;
+}
+#basket_product-title{
+	margin-top: 10px;
+	font-size: 18px;
+}
+#basket_product-price{
+	margin-bottom: 0px;
+}
+
+#basket_total{
+	font-size: 20px;
+}
+
+#basket_button-remove-product{
+	border: 1px solid grey;
+	color: white;
+	background: #EA6161;
+	margin-left: 30px;
+	font-size: 17px;	
+
+}
+
+#basket_product-quantity{
+	font-size: 18px;
+}
+
+#basket_button-remove-product:hover {
+	background: #D53D32;
+}
+
+
+#basket_button-increase-product{
+	position: relative;
+  	display: inline-block;
+  	width: 2em;
+ 	height: 2em;
+ 	line-height: 2em;
+ 	vertical-align: middle;
+  	text-align: center;
+	text-decoration: none;
+ 	color: #000;
+ 	outline: none;
+ 	border-radius: 5px;
+ 	box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+}
+
+#basket_button-reduce-product{
+	margin-left: 10px;
+	position: relative;
+  	display: inline-block;
+  	width: 2em;
+ 	height: 2em;
+ 	line-height: 2em;
+ 	vertical-align: middle;
+  	text-align: center;
+	text-decoration: none;
+ 	color: #000;
+ 	outline: none;
+ 	border-radius: 5px;
+ 	box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+}
